@@ -1,5 +1,9 @@
 # kickstart.nvim
 
+This is a fork of Kickstart.nvim, a quick nvim starting config. This is modified to my liking, in its own fork so that I can quickly set it up as I set up multiple machines.
+
+## - Zandgall
+
 ## Introduction
 
 A starting point for Neovim that is:
