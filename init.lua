@@ -318,7 +318,8 @@ require('lazy').setup({
       }
 
       -- Document existing key chains
-      require('which-key').add {
+      local wk = require 'which-key'
+      wk.register {
         { '<leader>c', group = '[C]ode' },
         { '<leader>d', group = '[D]ocument' },
         { '<leader>r', group = '[R]ename' },
